@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#"
+     xml:base="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:untitled-ontology-53="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#"
+     xmlns:ace="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#isContext -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#isContext">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics"/>
+    
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#MeasuredQuantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#MeasuredQuantity"/>
+   
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics"/>
+    </owl:Class>
+
+
+    <!-- http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#MeasuredQuantity"/>
+    </owl:NamedIndividual>
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Contexts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    -->
+    <owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+      <rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+    </owl:NamedIndividual>
+     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+        <rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+    </owl:NamedIndividual>
+    
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics">
+      <rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+    </owl:NamedIndividual>
+   
+    
+<!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Elements bound to ACE abnormalities
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    <!-- Magnitude is a characteristics of a seism UNLESS Geophysics IS NOT an instance of the context: this is is the abnormality.
+         Normality is: Geophysics IS an instance of the context in which case the rule MUST NOT be marked-->
+
+         
+    
+
+    <owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+      <rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+    </owl:NamedIndividual>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // ACE abnormalities
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+    
+    <ace:Condition ace:name="abnormality1">
+      <ace:Query ace:negation="negative" ace:abnormality="Geophysics,rdf:type,Context;"/>
+    </ace:Condition>
+  
+    <ace:Condition ace:name="abnormality2">
+      <ace:Query ace:negation="negative" ace:abnormality="Astrophysics,rdf:type,Context;"/>
+    </ace:Condition>
+
+     <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // ACE Omega definition
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+    --> 
+    <ace:Omega>
+      <ace:Query ace:negation="no negation" ace:abnormality="Geophysics,rdf:type,Context;Astrophysics,rdf:type,Context;"/>
+    </ace:Omega>
+      
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
+

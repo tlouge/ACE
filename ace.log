@@ -1,0 +1,1358 @@
+INFO:2019-05-15 15:50:36,425 ACE11.owl 
+INFO:2019-05-15 15:50:36,429 [('xmlns:rdfs', 'http://www.w3.org/2000/01/rdf-schema#'), ('xml:base', 'http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#'), ('xmlns:swrl', 'http://www.w3.org/2003/11/swrl#'), ('xmlns:xml', 'http://www.w3.org/XML/1998/namespace'), ('xmlns:swrla', 'http://swrl.stanford.edu/ontologies/3.3/swrla.owl#'), ('xmlns:swrlb', 'http://www.w3.org/2003/11/swrlb#'), ('xmlns:owl', 'http://www.w3.org/2002/07/owl#'), ('xmlns', 'http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#'), ('xmlns:rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#'), ('xmlns:xsd', 'http://www.w3.org/2001/XMLSchema#'), ('xmlns:untitled-ontology-53', 'http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#'), ('xmlns:ace', 'http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#')] 
+INFO:2019-05-15 15:50:36,429 Conditions: [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+DEBUG:2019-05-15 15:50:36,429 Text node encountered 
+DEBUG:2019-05-15 15:50:36,429 No condition 
+INFO:2019-05-15 15:50:36,429 integrating: 
+<owl:Ontology rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53"/>
+
+in the ontology 
+INFO:2019-05-15 15:50:36,429 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:36,431 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:36,435 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:36,435 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:36,435 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:36,435 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:36,435 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:36,435 objet: Context 
+INFO:2019-05-15 15:50:36,435 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:36,435 Sending Query 
+INFO:2019-05-15 15:50:37,701 len of query is: 0 
+INFO:2019-05-15 15:50:37,701 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,701 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,701 Exit from marking 
+DEBUG:2019-05-15 15:50:37,702 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,702 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 Text node encountered 
+DEBUG:2019-05-15 15:50:37,702 No condition 
+INFO:2019-05-15 15:50:37,702 integrating: 
+<owl:DatatypeProperty rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#isContext">
+	
+        
+	<rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+	
+        
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+	
+    
+</owl:DatatypeProperty>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,702 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,704 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,705 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,705 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,705 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,705 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,705 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,706 objet: Context 
+INFO:2019-05-15 15:50:37,706 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,706 Sending Query 
+INFO:2019-05-15 15:50:37,716 len of query is: 0 
+INFO:2019-05-15 15:50:37,716 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,716 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,716 Exit from marking 
+DEBUG:2019-05-15 15:50:37,716 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,716 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,716 Text node encountered 
+DEBUG:2019-05-15 15:50:37,716 Text node encountered 
+DEBUG:2019-05-15 15:50:37,716 Text node encountered 
+DEBUG:2019-05-15 15:50:37,716 Text node encountered 
+DEBUG:2019-05-15 15:50:37,716 No condition 
+INFO:2019-05-15 15:50:37,716 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics"/>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,716 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,718 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,720 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,720 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,720 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,720 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,720 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,720 objet: Context 
+INFO:2019-05-15 15:50:37,720 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,720 Sending Query 
+INFO:2019-05-15 15:50:37,730 len of query is: 0 
+INFO:2019-05-15 15:50:37,730 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,730 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,730 Exit from marking 
+DEBUG:2019-05-15 15:50:37,730 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,730 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,730 Text node encountered 
+DEBUG:2019-05-15 15:50:37,730 Text node encountered 
+DEBUG:2019-05-15 15:50:37,730 No condition 
+INFO:2019-05-15 15:50:37,731 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,731 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,732 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,734 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,734 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,734 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,735 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,735 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,735 objet: Context 
+INFO:2019-05-15 15:50:37,735 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,735 Sending Query 
+INFO:2019-05-15 15:50:37,746 len of query is: 0 
+INFO:2019-05-15 15:50:37,746 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,746 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,746 Exit from marking 
+DEBUG:2019-05-15 15:50:37,746 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,746 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,746 Text node encountered 
+DEBUG:2019-05-15 15:50:37,746 Text node encountered 
+DEBUG:2019-05-15 15:50:37,747 No condition 
+INFO:2019-05-15 15:50:37,747 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics"/>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,747 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,748 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,750 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,750 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,750 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,750 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,750 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,750 objet: Context 
+INFO:2019-05-15 15:50:37,750 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,751 Sending Query 
+INFO:2019-05-15 15:50:37,761 len of query is: 0 
+INFO:2019-05-15 15:50:37,761 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,761 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,761 Exit from marking 
+DEBUG:2019-05-15 15:50:37,761 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,761 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,761 Text node encountered 
+DEBUG:2019-05-15 15:50:37,761 Text node encountered 
+DEBUG:2019-05-15 15:50:37,761 No condition 
+INFO:2019-05-15 15:50:37,761 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#MeasuredQuantity"/>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,762 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,763 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,765 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,765 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,765 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,765 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,765 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,766 objet: Context 
+INFO:2019-05-15 15:50:37,766 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,766 Sending Query 
+INFO:2019-05-15 15:50:37,776 len of query is: 0 
+INFO:2019-05-15 15:50:37,776 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,776 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,776 Exit from marking 
+DEBUG:2019-05-15 15:50:37,776 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,776 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,776 Text node encountered 
+DEBUG:2019-05-15 15:50:37,776 Text node encountered 
+DEBUG:2019-05-15 15:50:37,776 No condition 
+INFO:2019-05-15 15:50:37,776 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics">
+	
+        
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics"/>
+	
+    
+</owl:Class>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,777 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,778 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,781 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,781 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,781 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,781 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,781 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,781 objet: Context 
+INFO:2019-05-15 15:50:37,781 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,781 Sending Query 
+INFO:2019-05-15 15:50:37,791 len of query is: 0 
+INFO:2019-05-15 15:50:37,791 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,791 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,792 Exit from marking 
+DEBUG:2019-05-15 15:50:37,792 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,792 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,792 Text node encountered 
+DEBUG:2019-05-15 15:50:37,792 Text node encountered 
+DEBUG:2019-05-15 15:50:37,792 No condition 
+INFO:2019-05-15 15:50:37,792 integrating: 
+<owl:Class rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters">
+	
+        
+	<rdfs:subClassOf rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Astrophysics"/>
+	
+    
+</owl:Class>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,792 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,793 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,798 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,798 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,798 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,798 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,798 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,798 objet: Context 
+INFO:2019-05-15 15:50:37,798 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,798 Sending Query 
+INFO:2019-05-15 15:50:37,808 len of query is: 0 
+INFO:2019-05-15 15:50:37,808 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,809 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,809 Exit from marking 
+DEBUG:2019-05-15 15:50:37,809 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,809 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,809 Text node encountered 
+DEBUG:2019-05-15 15:50:37,809 Text node encountered 
+DEBUG:2019-05-15 15:50:37,809 No condition 
+INFO:2019-05-15 15:50:37,809 integrating: 
+<owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#MeasuredQuantity"/>
+	
+    
+</owl:NamedIndividual>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,809 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,810 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,814 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,814 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,814 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,814 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,814 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,814 objet: Context 
+INFO:2019-05-15 15:50:37,814 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,814 Sending Query 
+INFO:2019-05-15 15:50:37,824 len of query is: 0 
+INFO:2019-05-15 15:50:37,825 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,825 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,825 Exit from marking 
+DEBUG:2019-05-15 15:50:37,825 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,825 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:37,825 Text node encountered 
+DEBUG:2019-05-15 15:50:37,825 Text node encountered 
+DEBUG:2019-05-15 15:50:37,825 Text node encountered 
+DEBUG:2019-05-15 15:50:37,825 Text node encountered 
+DEBUG:2019-05-15 15:50:37,825 No condition 
+INFO:2019-05-15 15:50:37,825 integrating: 
+<owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,825 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,827 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,830 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,830 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,830 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,830 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,830 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,830 objet: Context 
+INFO:2019-05-15 15:50:37,830 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,830 Sending Query 
+INFO:2019-05-15 15:50:37,841 len of query is: 1 
+DEBUG:2019-05-15 15:50:37,841 OMEGA: may have a pb on -> Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,841 OMEGA: testing -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,845 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,845 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,845 splitte par virgule: ['!Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,845 inversion 
+DEBUG:2019-05-15 15:50:37,845 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:37,845 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,845 objet: Context 
+INFO:2019-05-15 15:50:37,845 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,845 Sending Query 
+INFO:2019-05-15 15:50:37,856 len of query is: 0 
+DEBUG:2019-05-15 15:50:37,856 OMEGA: may have a pb on -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,856 OMEGA: fall 
+INFO:2019-05-15 15:50:37,856 OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:37,856 OMEGA VIOLATION CANCELED: element <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+DEBUG:2019-05-15 15:50:37,856 Text node encountered 
+DEBUG:2019-05-15 15:50:37,856 Text node encountered 
+DEBUG:2019-05-15 15:50:37,856 Text node encountered 
+DEBUG:2019-05-15 15:50:37,857 Text node encountered 
+INFO:2019-05-15 15:50:37,857 Condition Encountered: abnormality1 
+INFO:2019-05-15 15:50:37,857 Testing ace tag:<DOM Element: ace:Condition at 0x7f856ba54d58> 
+INFO:2019-05-15 15:50:37,857 Geophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:37,860 Geophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:37,860 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,860 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,860 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,860 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,860 objet: Context 
+INFO:2019-05-15 15:50:37,860 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,860 Sending Query 
+INFO:2019-05-15 15:50:37,886 len of query is: 0 
+DEBUG:2019-05-15 15:50:37,886  
+DEBUG:2019-05-15 15:50:37,886 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:37,886 string index out of range 
+INFO:2019-05-15 15:50:37,886 Rejecting the element:<owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ 
+DEBUG:2019-05-15 15:50:37,886 Text node encountered 
+INFO:2019-05-15 15:50:37,886 Condition Encountered: abnormality2 
+INFO:2019-05-15 15:50:37,887 Testing ace tag:<DOM Element: ace:Condition at 0x7f856ba54d58> 
+INFO:2019-05-15 15:50:37,887 Testing ace tag:<DOM Element: ace:Condition at 0x7f856ba54e88> 
+INFO:2019-05-15 15:50:37,887 Astrophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:37,890 Astrophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:37,890 Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,890 splitte par virgule: ['Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,890 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:37,890 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,890 objet: Context 
+INFO:2019-05-15 15:50:37,890 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,890 Sending Query 
+INFO:2019-05-15 15:50:37,902 len of query is: 0 
+DEBUG:2019-05-15 15:50:37,902  
+DEBUG:2019-05-15 15:50:37,902 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:37,902 string index out of range 
+INFO:2019-05-15 15:50:37,902 Rejecting the element:<owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ 
+DEBUG:2019-05-15 15:50:37,902 Text node encountered 
+DEBUG:2019-05-15 15:50:37,902 Text node encountered 
+DEBUG:2019-05-15 15:50:37,902 Text node encountered 
+DEBUG:2019-05-15 15:50:37,902 No condition 
+INFO:2019-05-15 15:50:37,902 integrating: 
+<ace:Condition ace:name="abnormality1">
+	
+      
+	<ace:Query ace:abnormality="Geophysics,rdf:type,Context;" ace:negation="negative"/>
+	
+    
+</ace:Condition>
+
+in the ontology 
+INFO:2019-05-15 15:50:37,902 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,904 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,907 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,907 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,908 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,908 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,908 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,908 objet: Context 
+INFO:2019-05-15 15:50:37,908 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,908 Sending Query 
+INFO:2019-05-15 15:50:37,918 len of query is: 0 
+INFO:2019-05-15 15:50:37,918 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:37,918 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:37,918 Exit from marking 
+DEBUG:2019-05-15 15:50:37,919 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:37,919 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:37,919 Integrating the element under condition:abnormality2 
+INFO:2019-05-15 15:50:37,919 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,920 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,924 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,925 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,925 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,925 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,925 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,925 objet: Context 
+INFO:2019-05-15 15:50:37,925 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,925 Sending Query 
+INFO:2019-05-15 15:50:37,936 len of query is: 0 
+INFO:2019-05-15 15:50:37,936 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:37,936 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:37,936 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:37,938 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:37,938 Going TO NEXT IDTAG 
+INFO:2019-05-15 15:50:37,938 IDTAG -->abnormality2 
+INFO:2019-05-15 15:50:37,938 TESTING IDTAG 
+INFO:2019-05-15 15:50:37,938 Astrophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:37,942 Astrophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:37,942 Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,942 splitte par virgule: ['Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,942 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:37,942 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,942 objet: Context 
+INFO:2019-05-15 15:50:37,942 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,943 Sending Query 
+INFO:2019-05-15 15:50:37,954 len of query is: 0 
+DEBUG:2019-05-15 15:50:37,954  
+DEBUG:2019-05-15 15:50:37,954 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:37,954 string index out of range 
+INFO:2019-05-15 15:50:37,954 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:37,955 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:37,955 Integrating the element:<owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:37,955 Integrating the element under condition: 
+INFO:2019-05-15 15:50:37,955 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,957 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,961 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,961 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,961 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,961 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,961 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,961 objet: Context 
+INFO:2019-05-15 15:50:37,961 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,961 Sending Query 
+INFO:2019-05-15 15:50:37,972 len of query is: 1 
+DEBUG:2019-05-15 15:50:37,972 OMEGA: may have a pb on -> Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,973 OMEGA: testing -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,977 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,977 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,977 splitte par virgule: ['!Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,977 inversion 
+DEBUG:2019-05-15 15:50:37,977 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:37,977 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,977 objet: Context 
+INFO:2019-05-15 15:50:37,977 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,977 Sending Query 
+INFO:2019-05-15 15:50:37,988 len of query is: 0 
+DEBUG:2019-05-15 15:50:37,988 OMEGA: may have a pb on -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,988 OMEGA: fall 
+INFO:2019-05-15 15:50:37,988 OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:37,988 OMEGA VIOLATION CANCELED: element <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:37,989 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:37,989 Integrating the element under condition:abnormality1 
+INFO:2019-05-15 15:50:37,989 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:37,991 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:37,995 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,996 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:37,996 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:37,996 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:37,996 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:37,996 objet: Context 
+INFO:2019-05-15 15:50:37,996 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:37,996 Sending Query 
+INFO:2019-05-15 15:50:38,006 len of query is: 0 
+INFO:2019-05-15 15:50:38,006 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:38,006 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,006 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:38,008 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:38,008 TESTING IDTAG 
+INFO:2019-05-15 15:50:38,008 Geophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:38,012 Geophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:38,012 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,012 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,012 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,013 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,013 objet: Context 
+INFO:2019-05-15 15:50:38,013 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,013 Sending Query 
+INFO:2019-05-15 15:50:38,026 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,026  
+DEBUG:2019-05-15 15:50:38,026 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:38,026 string index out of range 
+INFO:2019-05-15 15:50:38,026 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:38,026 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,026 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:38,027 No condition 
+INFO:2019-05-15 15:50:38,027 integrating: 
+<ace:Condition ace:name="abnormality2">
+	
+      
+	<ace:Query ace:abnormality="Geophysics,rdf:type,Context;" ace:negation="negative"/>
+	
+    
+</ace:Condition>
+
+in the ontology 
+INFO:2019-05-15 15:50:38,027 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,028 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,033 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,033 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,033 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,033 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,033 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,033 objet: Context 
+INFO:2019-05-15 15:50:38,033 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,033 Sending Query 
+INFO:2019-05-15 15:50:38,044 len of query is: 0 
+INFO:2019-05-15 15:50:38,044 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:38,044 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:38,044 Exit from marking 
+DEBUG:2019-05-15 15:50:38,044 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:38,044 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,044 Integrating the element under condition:abnormality2 
+INFO:2019-05-15 15:50:38,044 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,046 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,051 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,051 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,052 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,052 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,052 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,052 objet: Context 
+INFO:2019-05-15 15:50:38,052 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,052 Sending Query 
+INFO:2019-05-15 15:50:38,063 len of query is: 0 
+INFO:2019-05-15 15:50:38,063 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:38,063 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,063 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:38,064 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:38,064 Going TO NEXT IDTAG 
+INFO:2019-05-15 15:50:38,065 IDTAG -->abnormality2 
+INFO:2019-05-15 15:50:38,065 TESTING IDTAG 
+INFO:2019-05-15 15:50:38,065 Astrophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:38,069 Astrophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:38,069 Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,069 splitte par virgule: ['Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,069 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:38,070 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,070 objet: Context 
+INFO:2019-05-15 15:50:38,070 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,070 Sending Query 
+INFO:2019-05-15 15:50:38,080 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,080  
+DEBUG:2019-05-15 15:50:38,080 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:38,080 string index out of range 
+INFO:2019-05-15 15:50:38,080 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:38,081 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,081 Integrating the element:<owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,081 Integrating the element under condition: 
+INFO:2019-05-15 15:50:38,081 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,083 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,089 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,089 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,089 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,089 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,089 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,089 objet: Context 
+INFO:2019-05-15 15:50:38,089 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,089 Sending Query 
+INFO:2019-05-15 15:50:38,101 len of query is: 1 
+DEBUG:2019-05-15 15:50:38,101 OMEGA: may have a pb on -> Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,101 OMEGA: testing -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,106 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,106 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,106 splitte par virgule: ['!Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,106 inversion 
+DEBUG:2019-05-15 15:50:38,106 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:38,106 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,106 objet: Context 
+INFO:2019-05-15 15:50:38,106 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,106 Sending Query 
+INFO:2019-05-15 15:50:38,117 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,117 OMEGA: may have a pb on -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,118 OMEGA: fall 
+INFO:2019-05-15 15:50:38,118 OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,118 OMEGA VIOLATION CANCELED: element <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,118 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,118 Integrating the element under condition:abnormality1 
+INFO:2019-05-15 15:50:38,119 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,120 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,125 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,125 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,125 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,125 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,125 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,125 objet: Context 
+INFO:2019-05-15 15:50:38,125 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,125 Sending Query 
+INFO:2019-05-15 15:50:38,136 len of query is: 0 
+INFO:2019-05-15 15:50:38,136 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:38,136 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,136 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:38,138 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:38,138 TESTING IDTAG 
+INFO:2019-05-15 15:50:38,138 Geophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:38,144 Geophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:38,144 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,144 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,144 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,144 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,144 objet: Context 
+INFO:2019-05-15 15:50:38,144 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,144 Sending Query 
+INFO:2019-05-15 15:50:38,155 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,155  
+DEBUG:2019-05-15 15:50:38,155 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:38,155 string index out of range 
+INFO:2019-05-15 15:50:38,155 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:38,156 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,156 EXIT UNMARKING 
+DEBUG:2019-05-15 15:50:38,156 Text node encountered 
+DEBUG:2019-05-15 15:50:38,156 Text node encountered 
+DEBUG:2019-05-15 15:50:38,156 No condition 
+INFO:2019-05-15 15:50:38,156 integrating: 
+<ace:Omega>
+	
+      
+	<ace:Query ace:abnormality="Geophysics,rdf:type,Context;!Astrophysics,rdf:type,Context;" ace:negation="no negation"/>
+	
+    
+</ace:Omega>
+
+in the ontology 
+INFO:2019-05-15 15:50:38,156 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,159 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,164 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,164 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,164 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,164 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,164 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,164 objet: Context 
+INFO:2019-05-15 15:50:38,164 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,164 Sending Query 
+INFO:2019-05-15 15:50:38,176 len of query is: 0 
+INFO:2019-05-15 15:50:38,177 OMEGA: Not violating general abnormality 
+DEBUG:2019-05-15 15:50:38,177 Entering Rules Marking 
+DEBUG:2019-05-15 15:50:38,177 Exit from marking 
+DEBUG:2019-05-15 15:50:38,177 Entering Rules UNmarking 
+INFO:2019-05-15 15:50:38,177 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,177 Integrating the element under condition:abnormality2 
+INFO:2019-05-15 15:50:38,177 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,179 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,184 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,185 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,185 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,185 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,185 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,185 objet: Context 
+INFO:2019-05-15 15:50:38,185 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,185 Sending Query 
+INFO:2019-05-15 15:50:38,195 len of query is: 0 
+INFO:2019-05-15 15:50:38,195 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:38,195 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,195 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:38,197 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:38,197 Going TO NEXT IDTAG 
+INFO:2019-05-15 15:50:38,197 IDTAG -->abnormality2 
+INFO:2019-05-15 15:50:38,197 TESTING IDTAG 
+INFO:2019-05-15 15:50:38,197 Astrophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:38,202 Astrophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:38,202 Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,202 splitte par virgule: ['Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,202 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:38,202 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,202 objet: Context 
+INFO:2019-05-15 15:50:38,203 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,203 Sending Query 
+INFO:2019-05-15 15:50:38,213 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,213  
+DEBUG:2019-05-15 15:50:38,213 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:38,213 string index out of range 
+INFO:2019-05-15 15:50:38,213 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:38,214 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality2" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#StellarParameters"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,214 Integrating the element:<owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,214 Integrating the element under condition: 
+INFO:2019-05-15 15:50:38,214 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,215 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,220 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,220 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,220 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,220 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,221 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,221 objet: Context 
+INFO:2019-05-15 15:50:38,221 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,221 Sending Query 
+INFO:2019-05-15 15:50:38,234 len of query is: 1 
+DEBUG:2019-05-15 15:50:38,234 OMEGA: may have a pb on -> Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,234 OMEGA: testing -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,239 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,239 !Astrophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,239 splitte par virgule: ['!Astrophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,239 inversion 
+DEBUG:2019-05-15 15:50:38,239 sujet: Astrophysics 
+DEBUG:2019-05-15 15:50:38,239 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,239 objet: Context 
+INFO:2019-05-15 15:50:38,239 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Astrophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,239 Sending Query 
+INFO:2019-05-15 15:50:38,251 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,251 OMEGA: may have a pb on -> !Astrophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,251 OMEGA: fall 
+INFO:2019-05-15 15:50:38,251 OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,252 OMEGA VIOLATION CANCELED: element <owl:NamedIndividual rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Geophysics">
+	
+        
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Context"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,252 Integrating the element:<owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ 
+INFO:2019-05-15 15:50:38,252 Integrating the element under condition:abnormality1 
+INFO:2019-05-15 15:50:38,252 Entering OMEGA TEST 
+DEBUG:2019-05-15 15:50:38,254 OMEGA: testing -> Geophysics,rdf:type,Context 
+INFO:2019-05-15 15:50:38,259 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,259 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,259 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,259 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,259 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,259 objet: Context 
+INFO:2019-05-15 15:50:38,259 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,259 Sending Query 
+INFO:2019-05-15 15:50:38,270 len of query is: 0 
+INFO:2019-05-15 15:50:38,270 OMEGA: Not violating general abnormality 
+INFO:2019-05-15 15:50:38,270 Unmarking --> NO OMEGA VIOLATION RETURNED 
+INFO:2019-05-15 15:50:38,270 [<DOM Element: ace:Condition at 0x7f856ba54d58>, <DOM Element: ace:Condition at 0x7f856ba54e88>, <DOM Element: ace:Condition at 0x7f856b9e0048>] 
+INFO:2019-05-15 15:50:38,272 IDTAG -->abnormality1 
+INFO:2019-05-15 15:50:38,272 TESTING IDTAG 
+INFO:2019-05-15 15:50:38,272 Geophysics,rdf:type,Context; 
+INFO:2019-05-15 15:50:38,278 Geophysics,rdf:type,Context; 
+DEBUG:2019-05-15 15:50:38,278 Geophysics,rdf:type,Context 
+DEBUG:2019-05-15 15:50:38,278 splitte par virgule: ['Geophysics', 'rdf:type', 'Context'] 
+DEBUG:2019-05-15 15:50:38,278 sujet: Geophysics 
+DEBUG:2019-05-15 15:50:38,278 predicat: rdf:type 
+DEBUG:2019-05-15 15:50:38,278 objet: Context 
+INFO:2019-05-15 15:50:38,278 Query string: PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX base: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX swrl: <http://www.w3.org/2003/11/swrl#>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX swrla: <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#>
+PREFIX swrlb: <http://www.w3.org/2003/11/swrlb#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xmlns: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX untitled-ontology-53: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+PREFIX ace: <http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#>
+SELECT ?object WHERE {
+base:Geophysics rdf:type ?object .
+FILTER regex(str(?object), "Context","i") .}
+ 
+INFO:2019-05-15 15:50:38,278 Sending Query 
+INFO:2019-05-15 15:50:38,289 len of query is: 0 
+DEBUG:2019-05-15 15:50:38,290  
+DEBUG:2019-05-15 15:50:38,290 splitte par virgule: [''] 
+WARNING:2019-05-15 15:50:38,290 string index out of range 
+INFO:2019-05-15 15:50:38,290 ABNORMALITY SATISFIED 
+INFO:2019-05-15 15:50:38,290 VIOLATION OF ABNORMALITY CANCELED: element <owl:NamedIndividual ace:Condition="abnormality1" rdf:about="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#Magnitude">
+	
+      
+	<rdf:type rdf:resource="http://www.semanticweb.org/tlouge/ontologies/2018/8/untitled-ontology-53#SeismCharacteristics"/>
+	
+    
+</owl:NamedIndividual>
+ removed 
+INFO:2019-05-15 15:50:38,290 EXIT UNMARKING 
